@@ -1,6 +1,6 @@
 # Example patch overlay: mount dsh-memory-audit into a DSH Web profile.
-# Usage: pnpm dsh web --patch /absolute/path/to/dsh-memory-audit/cordis.yml
+# Usage: pnpm dsh web --patch /root/dsh-memory-audit/cordis.yml
 # Replace the path below with the absolute path to this repository's lib/index.js.
 - insert:
     - id: memory-audit
-      name: /absolute/path/to/dsh-memory-audit/lib/index.js
+      name: /root/dsh-memory-audit/lib/index.js

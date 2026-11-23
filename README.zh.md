@@ -32,7 +32,7 @@ Mem0 这类记忆层能恢复被中断任务的*语义*，但字段名仍会漂�
 在 DSH 仓库检出的环境中：
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/dsh-memory-audit.git
+git clone https://github.com/jackiezyj0623-sudo/dsh-memory-audit.git
 cd dsh-memory-audit
 npm install --legacy-peer-deps
 npm run build

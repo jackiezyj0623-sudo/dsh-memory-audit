@@ -32,7 +32,7 @@ Nested keys are resolved by trailing segment, so `context.goal` satisfies the `g
 This is a community plugin. From a DSH checkout:
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/dsh-memory-audit.git
+git clone https://github.com/jackiezyj0623-sudo/dsh-memory-audit.git
 cd dsh-memory-audit
 npm install --legacy-peer-deps
 npm run build
