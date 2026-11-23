@@ -1,0 +1,44 @@
+{
+  "name": "dsh-memory-audit",
+  "version": "0.1.0",
+  "description": "A DeepSeek Harness plugin that audits agent memory for field-name drift and missing resumable-task context.",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "files": [
+    "lib",
+    "src",
+    "README.md",
+    "README.zh.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh",
+    "agent",
+    "memory",
+    "devrel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/dsh-memory-audit.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=0.2.0",
+    "@deepseek-ai/dsh-tools": ">=0.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
